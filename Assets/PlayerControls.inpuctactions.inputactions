@@ -1,0 +1,66 @@
+{
+    "version": 1,
+    "name": "PlayerControls.inpuctactions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "0745e0a2-c78f-495d-b9f1-738ac0326fde",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "451551f6-7ca0-4275-ad22-a779541b2540",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Slide",
+                    "type": "Button",
+                    "id": "e325ed06-ab62-42ee-a5c8-4f5c160bedc2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5fcf276b-16c0-49da-a212-c94bb82090fa",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3c839ec0-7746-4ea9-8fff-aa2599ef0658",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1e52787-6626-4772-9b29-e19533836659",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slide",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
